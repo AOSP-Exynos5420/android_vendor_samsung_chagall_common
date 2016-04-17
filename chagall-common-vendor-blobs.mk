@@ -14,9 +14,6 @@
 
 #Camera
 PRODUCT_COPY_FILES += \
-    vendor/samsung/chagall-common/proprietary/lib/hw/camera.universal5420.so:system/lib/hw/camera.vendor.universal5420.so
-
-PRODUCT_COPY_FILES += \
     vendor/samsung/chagall-common/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so
 
 #Camera - arcsoft

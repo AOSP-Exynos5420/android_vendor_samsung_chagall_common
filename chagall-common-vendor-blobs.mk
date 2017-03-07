@@ -16,21 +16,9 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/chagall-common/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so
 
-#Camera - arcsoft
-PRODUCT_COPY_FILES += \
-    vendor/samsung/chagall-common/proprietary/lib/libarcsoft_flawlessface2.so:system/lib/libarcsoft_flawlessface2.so
-
 #Samsung Exynos5 SoC series FIMC-IS driver firmware
 PRODUCT_COPY_FILES += \
     vendor/samsung/chagall-common/proprietary/vendor/firmware/fimc_is_fw2_IMX134_EEPROM.bin:system/vendor/firmware/fimc_is_fw2_IMX134_EEPROM.bin
-
-#DRMServer called through service_redefine drm
-PRODUCT_COPY_FILES += \
-    vendor/samsung/chagall-common/proprietary/bin/drmserver:system/bin/drmserver.samsung
-
-#Stagefright
-PRODUCT_COPY_FILES += \
-    vendor/samsung/chagall-common/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so
 
 #NXP Sound effect
 PRODUCT_COPY_FILES += \
